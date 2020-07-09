@@ -1,11 +1,11 @@
-let nb = 0
 input.onButtonPressed(Button.A, function () {
-    nb = 1
-    while (nb < 10) {
+    if (nb < 10) {
         nb += 1
         basic.showNumber(nb)
     }
 })
+let nb = 0
+nb = 1
 basic.forever(function () {
 	
 })
